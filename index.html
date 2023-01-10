@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рецепт фруктового салата</title>
+</head>
+<body>
+    <div>
+        <p>
+            Переверните устройство
+        </p>
+    </div>
+    <img src="./png_20230110_210443_0000.png" alt="">
+    <style>
+        p{
+            text-align: center;
+        }
+        img{
+            z-index: 1;
+            width:100vw;
+        }
+        body{
+            margin: 0;
+            position: relative;
+        }
+        div{
+            display: none;
+            width: 100%;
+            height: 100%;
+            background: white;
+            position: fixed;
+            z index: 10;
+        }
+        @media (orientation:landscape){
+            div {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    </style>
+</body>
+</html>
